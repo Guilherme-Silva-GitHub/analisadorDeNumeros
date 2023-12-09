@@ -1,0 +1,65 @@
+body{
+    background-image: url(/assets/imgs/fundo.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    font: normal 15pt Arial;
+}
+
+header, section, footer{
+    box-shadow: 2px 2px 2px blue;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 15px auto;
+    width: 500px;
+    background: white;
+    color: blue;
+    text-align: center;
+}
+
+input{
+    box-shadow: 2px 2px 2px blue;
+    border-radius: 20px;
+    color: blue;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid blue;
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+}
+
+select{
+    font-size: 0.8em;
+    padding: 5px;
+    color: blue;
+    box-shadow: 2px 2px 2px blue;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid blue;
+    margin: 15px;
+    width: 200px;
+    height: 150px;
+}
+
+option{
+    font-weight: bold;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+@media (max-width: 770px) {
+    body {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    h1, p {
+        text-align: center;
+    }
+}
+
