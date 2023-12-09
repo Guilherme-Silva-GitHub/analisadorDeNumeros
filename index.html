@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+
+        <!-- Título -->
+
+        <h1>Analisador de Números</h1>
+
+    </header>
+
+    <section>
+
+        <!-- Recebendo o input do usuário -->
+
+        <div>
+
+            <strong>Número (entre 1 e 100): </strong><input type="number" id="num" min="1" max="100"> <br>
+
+            <!-- Chamada do Javascript -->
+
+            <input type="button" value="Adicionar" onclick="adicionar()">
+
+        </div>
+
+        <div>
+
+            <!-- Onde irá aparecer os valores selecionados -->
+
+            <select name="selecao" id="numSelecao" size="10">
+
+
+            </select>
+
+        </div>
+
+        <!-- Onde irá aparecer as respostas do finalizar -->
+
+        <div id="res">
+
+
+
+        </div>
+
+        <input type="button" value="Finalizar" onclick="finalizar()">
+
+    </section>
+
+    <footer>
+
+        <p><strong>&copy; Gui Silva</strong></p>
+
+    </footer>
+
+    <!-- Arquivo Javascript -->
+
+    <script src="main.js"></script>
+
+</body>
+</html>
